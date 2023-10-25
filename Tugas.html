@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Validasi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Form Validasi</h2>
+  <form id="myForm" onsubmit="return validateForm()">
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama" name="nama"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email"><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <p id="error"></p>
+
+  <script>
+    function validateForm() {
+      var nama = document.getElementById("nama").value;
+      var email = document.getElementById("email").value;
+      var error = document.getElementById("error");
+
+      if (nama === "" || email === "") {
+        error.innerHTML = "Semua isian harus diisi!";
+        return false; // Mencegah form dari pengiriman jika ada isian yang kosong.
+      }
+
+      return true; // Memungkinkan form untuk dikirim jika semua isian terisi.
+    }
+  </script>
+</body>
+</html>
