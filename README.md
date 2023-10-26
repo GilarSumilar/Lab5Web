@@ -411,4 +411,4 @@ Form Input
 #### *Note :*
 Pilihan menggunakan checkBox dengan perhitungan otomatis
 
-**[---KEMBALI-->](# Lab5Web + Javascript)**
+**[---KEMBALI-->](#-Lab5Web-+-Javascript)**
