@@ -16,8 +16,7 @@
 ### Pertanyaan dan Tugas
 1. Buat script untuk melakukan validasi pada isian form
 
-### Jawaban
-[Sourcecode](https://github.com/GilarSumilar/Lab5Web/blob/main/Gambar/Tugas.png)
+### Jawaban : [Sourcecode](https://github.com/GilarSumilar/Lab5Web/blob/main/Gambar/Tugas.png)
 
 **Hasil tugas :**
 
